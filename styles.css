@@ -70,6 +70,7 @@ body {
     margin: auto;
     padding: 0.8% 0;
     background-color: #fff;
+    cursor: pointer;
 }
 .button {
     font-family: 'Poppins',sans-serif;
@@ -94,6 +95,7 @@ h5{
 
 .todo-form{
     width: 100%;
+    display: flex;
 }
 .plan-today{
     width: 63%;
@@ -103,35 +105,45 @@ h5{
 #todo{
     width:80%;
     padding: 0.8% .5%;
-    margin-right: 1%;
+    margin-right: 1.6%;
     font-size: .6rem;
     font-family: 'Poppins',sans-serif;
     font-weight: bold;
 }
 
 #submit{
-    padding: 0.9% 4.7%;
+    padding: 0.9% 5%;
     font-size: .7rem;
     font-family: 'Poppins',sans-serif;
     font-weight: bold;
     background-color: rgb(49, 47, 47);
     color: #fff;
     border: none;
+    cursor: pointer;;
 }
 .todo-list{
     text-align: left;
     padding: 0;
 }
 .todo-list li{
+    font-size: .8rem;
     list-style:none;
-    background-color: darkolivegreen;
-    color: cyan;
+    background-color: #444;
+    color:#fff;
     text-transform: capitalize;
     margin-bottom: 1%; 
     padding: 0.8%;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-
+.list-btn{
+    font-size: .7rem;
+    margin: 0rem .1rem;
+    font-weight: bold;
+}
 
 /* SignUp */
 #signup{
