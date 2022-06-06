@@ -38,7 +38,7 @@ submit.addEventListener("submit", (e) => {
 
 //     }
 
-secondWay
+// secondWay
    const newLi = document.createElement("li");
 
 const innerhtml = `<span class="li-span">${input.value}</span>
@@ -47,13 +47,13 @@ const innerhtml = `<span class="li-span">${input.value}</span>
         <button class="list-btn remove">Remove</button>
     </div>`
 newLi.innerHTML = innerhtml;
-if (input.value !== "") {
+if (input.value !== " ") {
 
     todoLi.append(newLi);
 
 }
 
-input.value = "";
+input.value = " ";
 
 })
 
